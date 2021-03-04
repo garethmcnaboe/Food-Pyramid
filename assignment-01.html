@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Food Pyramid</title>
+
+    <link rel="stylesheet" type="text/css" href="./assignment-01.css" />
+
+    <script src="./assignment-01.js"></script>
+
+  </head>
+  <body>
+
+    <h2>Figure 1</h2>
+
+    <div class="shape onea">
+    </div>
+
+    <div class="shape oneb show1">
+      <table class="buttons1">
+        <tr>
+            <td><button class="tdbutton" onclick="change1(0)">-</button></td>
+            <td class="counter" id="getter1">0</td>
+            <td><button class="tdbutton" onclick="change1(1)">+</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="shape two">
+    </div>
+
+    <div class="shape three show2">
+      <table class="buttons2">
+        <tr>
+            <td><button class="tdbutton" onclick="change2(0)">-</button></td>
+            <td class="counter" id="getter2">0</td>
+            <td><button class="tdbutton" onclick="change2(1)">+</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="shape four">
+    </div>
+
+    <div class="shape five show3">
+      <table class="buttons3">
+        <tr>
+            <td><button class="tdbutton" onclick="change3(0)">-</button></td>
+            <td class="counter" id="getter3">0</td>
+            <td><button class="tdbutton" onclick="change3(1)">+</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="shape six show4">
+      <table class="buttons3">
+        <tr>
+            <td><button class="tdbutton" onclick="change4(0)">-</button></td>
+            <td class="counter" id="getter4">0</td>
+            <td><button class="tdbutton" onclick="change4(1)">+</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="shape seven show5">
+      <table class="buttons3">
+        <tr>
+            <td><button class="tdbutton" onclick="change5(0)">-</button></td>
+            <td class="counter" <a id="getter5">0</a></td>
+            <td><button class="tdbutton" onclick="change5(1)">+</button></td>
+        </tr>
+      </table>
+
+    </div>
+
+    <div class="shape eight show6">
+      <table class="buttons3">
+        <tr>
+            <td><button class="tdbutton" onclick="change6(0)">-</button></td>
+            <td class="counter" <a id="getter6">0</a></td>
+            <td><button class="tdbutton" onclick="change6(1)">+</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <h2>My Food Pyramid</h2>
+
+    <div id="datainput" class = "dateinput">
+        <label for="current Date">Please enter date:</label>
+        <input type="date" id="date1" value="2021-02-21">
+        <p><button onclick="enterDate()">Submit </button></p>
+    </div>
+
+     <div id="showDate" class="showdate1">
+       <a id="enteredDate"></a>
+    </div>
+
+
+
+  </body>
+</html>

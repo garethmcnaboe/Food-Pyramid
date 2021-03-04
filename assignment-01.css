@@ -1,0 +1,147 @@
+h2{text-align:center; font-family:arial;}
+
+body{
+  background-color:lightblue}
+
+  .show1:hover .tdbutton{
+      display:block;
+  }
+
+  .show2:hover .tdbutton{
+    display:block;
+  }
+
+  .show3:hover .tdbutton{
+      display:block;
+  }
+
+  .show4:hover .tdbutton{
+      display:block;
+  }
+
+  .show5:hover .tdbutton{
+    display:block;
+  }
+
+  .show6:hover .tdbutton{
+    display:block;
+  }
+
+  .showdate1{
+      display:none;
+      text-align:center;
+      font-family:arial;
+  }
+
+  .tdbutton{
+      display:none;
+      border-radius: 50%;
+      background-color: grey;
+      color: white;
+      cursor: pointer;
+      width: 22px;
+      height: 22px;
+      border-style: solid;
+      border-color: black;
+      border-width: 1px;
+  }
+
+  .counter{
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    width: 22px;
+    height: 22px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+  }
+
+.dateinput{
+  text-align: center;
+  font-family: arial;
+}
+
+.buttons1{
+  display: flex;
+  justify-content: center;
+  padding-top: 2px;
+  }
+
+.buttons2{
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+  }
+
+.buttons3{
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+}
+
+.shape{margin:auto;}
+  .onea{
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 57px solid red;
+  }
+  .oneb{
+    border-bottom: 33px solid red;
+    border-left: 23px solid transparent;
+    border-right: 23px solid transparent;
+    height: 0px;
+    width: 80px;
+  }
+  .two{
+    border-bottom: 11px solid white;
+    border-left: 7.75px solid transparent;
+    border-right: 7.75px solid transparent;
+    height: 0;
+    width: 126px;
+  }
+  .three{
+    border-bottom: 33px solid orange;
+    border-left: 23.25px solid transparent;
+    border-right: 23.25px solid transparent;
+    height: 0;
+    width: 141.5px;
+  }
+  .four{
+    border-bottom: 11px solid white;
+    border-left: 7.75px solid transparent;
+    border-right: 7.75px solid transparent;
+    height: 0;
+    width: 188px;
+  }
+  .five{
+    border-bottom: 44px solid yellow;
+    border-left: 31px solid transparent;
+    border-right: 31px solid transparent;
+    height: 0;
+    width: 203.5px;
+  }
+  .six{
+    border-bottom: 44px solid Royalblue;
+    border-left: 31px solid transparent;
+    border-right: 31px solid transparent;
+    height: 0;
+    width: 265.5px;
+  }
+  .seven{
+    border-bottom: 44px solid tan;
+    border-left: 31px solid transparent;
+    border-right: 31px solid transparent;
+    height: 0;
+    width: 327.5px;
+  }
+  .eight{
+    border-bottom: 44px solid lightgreen;
+    border-left: 31px solid transparent;
+    border-right: 31px solid transparent;
+    height: 0;
+    width: 389.5px;
+  }
